@@ -1,0 +1,141 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #656565;   
+    margin:0px; 
+}
+.container{
+    margin-top: -1px;
+    padding: 1% 25%;
+}
+#navbar{
+    background-color:#f7f6f2;
+    display: flex;
+   
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 25%;
+}
+li{
+    padding: 16px ;
+    
+    
+}
+a{
+    text-decoration: none;
+    color:#656565;
+    
+}
+a:hover{
+    background-color: #a1bd57;
+    color: #fff;
+    border-radius: 10px;
+    padding:5px 6px
+}
+
+/* recent blog */
+.recent-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.recentBlogs-image{
+    background: #dad6cf;
+    border-color: #c2b59d;
+    padding: 7px;
+    border: 1px solid rgb(179, 178, 178);
+}
+.recent-blog{
+    display: flex;
+    
+}
+.recentBlog-info{
+    margin-right:16px;
+    margin-left:20px
+}
+.recentBlog-title{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #a58039;
+}
+.recentBlog-title:hover{
+    color: #656565;
+}
+.date{
+color: #c4b9b9;
+}
+.admin{
+    color: #a58039;
+}
+.admin:hover{
+    color: #84994d;
+}
+p{
+    line-height: 24px;
+}
+/* line */
+.line{
+    display: flex;
+}
+
+
+/* bella model */
+#bella-model{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bellaModel-button{
+    padding: 8px 20px;
+    border: 6px solid;
+    border-radius: 25px;  
+    background-color: #b88f3f;
+    border-color: #d0c2a6;
+    box-shadow: inset 1px 1px 0px 0px #a5782e;
+}
+
+
+
+/* footer */
+.footer-section{
+  background: url(images/bellaImage\ \(2\).jpg);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+}
+.section-title{
+    color: #a1bd57;
+    font-family: 'Lobster', cursive;
+}
+.footer-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.footer-text{
+    color: #ecd7a9;
+    line-height: 20px;
+}
+#footer-button{
+    padding: 8px 20px;
+    border: 6px solid;
+    border-radius: 25px;  
+    background-color: #a1bd57;
+    border-color: #cae484;
+    box-shadow: inset 1px 1px 0px 0px #cae484;
+   
+}
+#footer-button:hover{
+    background-color: #84994d;
+}
+#text{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.social-icon{
+    margin-right: 8px;
+}
+i{
+    margin-right: 7px;
+}
