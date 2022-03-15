@@ -35,6 +35,20 @@ a:hover{
     padding:5px 6px
 }
 
+/* featured menu */
+.feature-menus{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 100px;
+}
+
+.feature-menu{
+display:flex
+}
+
+
+
+
 /* recent blog */
 .recent-blogs{
     display: grid;
@@ -76,6 +90,8 @@ p{
 /* line */
 .line{
     display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
 
